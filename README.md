@@ -115,35 +115,19 @@ In this section, we present the results of our experiments, including the perfor
 
 The performance of the classification models was assessed using a variety of evaluation metrics. The results for each model are summarized in Table 1.
 
-| Model                | Accuracy | Precision | Recall | F1 Score | 
-|----------------------|----------|-----------|--------|----------|
-| K-Nearest Neighbors  | 0.85     | 0.84      | 0.86   | 0.85     | 
-| Support Vector Machine | 0.91     | 0.91      | 0.91   | 0.91     | 
-| Linear Discriminant Analysis | 0.83     | 0.82      | 0.84   | 0.83     | 
-| Naive Bayes           | 0.77     | 0.76      | 0.78   | 0.77     | 
-
-Table 1: Performance of Classification Models
 
 The Support Vector Machine (SVM) model achieved the highest accuracy and balanced performance across all metrics, making it the top-performing model for this task.
 
 ### Feature Extraction Comparison
 
-To compare the two feature extraction methods, Histogram Projection Features and Local Chain Code Features, we examined the performance of classification models when using each feature set. The results are summarized in Table 2.
-
-| Feature Extraction Method | Model                | Accuracy | Precision | Recall | F1 Score |
-|---------------------------|----------------------|----------|-----------|--------|----------|
-| Histogram Projection      | K-Nearest Neighbors  | 0.80     | 0.79      | 0.81   | 0.80     | 
-|                           | Support Vector Machine | 0.86     | 0.86      | 0.86   | 0.86     | 
-|                           | Linear Discriminant Analysis | 0.77     | 0.76      | 0.78   | 0.77     | 
-|                           | Naive Bayes           | 0.74     | 0.73      | 0.75   | 0.74     | 
-| Local Chain Code         | K-Nearest Neighbors  | 0.85     | 0.84      | 0.86   | 0.85     | 
-|                           | Support Vector Machine | 0.91     | 0.91      | 0.91   | 0.91     | 
-|                           | Linear Discriminant Analysis | 0.83     | 0.82      | 0.84   | 0.83     | 
-|                           | Naive Bayes           | 0.76     | 0.75      | 0.77   | 0.76     | 
-
-Table 2: Comparison of Feature Extraction Methods
+To compare the two feature extraction methods, Histogram Projection Features and Local Chain Code Features, we examined the performance of classification models when using each feature set. The results are summarized in Table 1.
+![Table 1](results_table.png)
 
 Both feature extraction methods yielded competitive results. The Local Chain Code Features showed a slight advantage in terms of accuracy and other performance metrics for most of the classification models.
+![p1](accuracy_bar_chart.png)
+![Data  Distribution](roc_curve.png)
+![Data Class ](confusion_matrices.png)
+
 
 ## Conclusion
 
