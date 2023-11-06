@@ -147,7 +147,7 @@ The research aims to contribute to the preservation and accessibility of Persian
 
 ## Acknowledgments
 
-The author would like to express gratitude to the contributors of the Persian handwritten word dataset used in this research. Their efforts in curating the dataset have been instrumental in advancing research in this domain.
+I would like to express gratitude to the contributors of the Persian handwritten word dataset used in this research. Their efforts in curating the dataset have been instrumental in advancing research in this domain.
 
 ## References
 
