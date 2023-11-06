@@ -145,6 +145,24 @@ Future work may include:
 
 The research aims to contribute to the preservation and accessibility of Persian cultural heritage by advancing the state of the art in handwritten word recognition.
 
+
+## Discussion
+
+The results of our experiments indicate that the "Local Chain Code" feature extraction method, when paired with the "Support Vector Machine" classification model, achieves the highest accuracy and the best overall performance in classifying Persian handwritten words. The combination of these methods surpasses other feature extraction and classification approaches in terms of precision, recall, and F1 score. This suggests that the local chain code features are particularly effective in capturing the intricate characteristics of Persian handwritten words.
+
+In contrast, the "Histogram Projection" feature extraction method, while still achieving acceptable performance, lags behind the "Local Chain Code" method. This indicates that the spatial distribution of pixel intensities along the horizontal and vertical axes might not fully capture the critical features of handwritten Persian words.
+
+Our research reinforces the importance of feature extraction in Persian handwritten word recognition. While the local chain code features demonstrate superior performance, further research may explore combining various feature extraction methods or developing more advanced techniques tailored to Persian script recognition.
+
+## Centralized and Padded Dataset
+
+It's important to note that the dataset used in this research has been centralized to ensure that the words are aligned and centered within the image frames. Additionally, the dataset was resized and padded to achieve a common target shape of (64, 64) for all images. These preprocessing steps enhance the consistency of word positioning and simplify subsequent analysis.
+
+## Code Notebook
+
+The code notebook used for these experiments, including data preprocessing, feature extraction, and model training, is available for further exploration.
+
+
 ## Acknowledgments
 
 I would like to express gratitude to the contributors of the Persian handwritten word dataset used in this research. Their efforts in curating the dataset have been instrumental in advancing research in this domain.
